@@ -98,6 +98,13 @@ VS Code Cheat Sheet with the most needed stuff..
                     }
             },
             {
+                "scope": "constant.language.undefined.js",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f"
+                    }
+            },
+            {
                 "scope": "keyword.control.loop.js",
                 "settings": {
                     "fontStyle": "",
