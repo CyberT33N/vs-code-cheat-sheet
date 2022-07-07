@@ -1,7 +1,7 @@
 # VS Code Cheat Sheet
 VS Code Cheat Sheet with the most needed stuff..
 
-
+<br><br>
 
 # Extensions
 - https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
