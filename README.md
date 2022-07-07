@@ -192,3 +192,18 @@ You may need only the main scope listed, but if need to narrow its scope you can
 
 
 
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+# Debug
+
+## Run npm scripts from package.json with 1-click from your sidebar
+- View - Open View -> NPM Scripts
+
