@@ -6,6 +6,7 @@ VS Code Cheat Sheet with the most needed stuff..
 # Extensions
 - https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 - https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-monokai-night
+- https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-power-mode
 
 <br><br>
 <br><br>
