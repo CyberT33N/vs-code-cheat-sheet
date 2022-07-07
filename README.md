@@ -86,14 +86,56 @@ VS Code Cheat Sheet with the most needed stuff..
             {
                 "scope": "string.quoted.double.json.comments",
                 "settings": {
-                    "fontStyle": "",
-                    "foreground": "#E6DB74"
+                    "fontStyle": "bold",
+                    "foreground": "#ffe600"
+                    }
+            },
+            {
+                "scope": "string.quoted.single.js",
+                "settings": {
+                    "fontStyle": "bold",
+                    "foreground": "#ffe600"
                     }
             },
             {
                 "scope": "storage.type.function.arrow.js",
                 "settings": {
                     "fontStyle": "",
+                    "foreground": "#fa115f"
+                    }
+            },
+            {
+                "scope": "meta.brace.square.js",
+                "settings": {
+                    "fontStyle": "bold",
+                    "foreground": "#fa115f"
+                    }
+            },
+            {
+                "scope": "punctuation.definition.dictionary.begin.json.comments",
+                "settings": {
+                    "fontStyle": "bold",
+                    "foreground": "#fa115f"
+                    }
+            },
+            {
+                "scope": "punctuation.definition.dictionary.end.json.comments",
+                "settings": {
+                    "fontStyle": "bold",
+                    "foreground": "#fa115f"
+                    }
+            },
+            {
+                "scope": "punctuation.definition.array.begin.json.comments",
+                "settings": {
+                    "fontStyle": "bold",
+                    "foreground": "#fa115f"
+                    }
+            },
+            {
+                "scope": "punctuation.definition.array.end.json.comments",
+                "settings": {
+                    "fontStyle": "bold",
                     "foreground": "#fa115f"
                     }
             },
