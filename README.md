@@ -4,6 +4,7 @@ VS Code Cheat Sheet with the most needed stuff..
 <br><br>
 
 # Extensions
+- https://marketplace.visualstudio.com/items?itemName=shalldie.background
 - https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 - https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-monokai-night
 - https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-power-mode
