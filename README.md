@@ -7,6 +7,31 @@ VS Code Cheat Sheet with the most needed stuff..
 - https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 - https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-monokai-night
 - https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-power-mode
+- https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css
+```
+The extension would NOT work if Visual Studio Code cannot modify itself. The cases include:
+
+Code files being read-only, like on a read-only file system or,
+Code is not started with the permissions to modify itself.
+You need to claim ownership on Visual Studio Code's installation directory, by running this command:
+
+sudo chown -R $(whoami) <Path to Code>
+The placeholder <Path to Visual Studio Code> means the path to VSCode installation. It is typically:
+
+/Applications/Visual Studio Code.app/Contents/MacOS/Electron, on MacOS;
+/Applications/Visual Studio Code - Insiders.app/Contents/MacOS/Electron, on MacOS when using Insiders branch;
+/usr/share/code, on most Linux;
+/usr/lib/code/ or /opt/visual-studio-code on Arch Linux.
+Mac and Linux package managers may have customized installation path. Please double check your path is correct.
+```
+- https://marketplace.visualstudio.com/items?itemName=TheCodemonkey.synthwave-x-fluoromachine-epic-animations
+```
+  // For Linux it would be in your settings.json
+  "vscode_custom_css.imports": [
+    "file:////home/CyberT33N/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/synthwave-x-fluoromachine.itermcolors",
+    "file:////home/CyberT33N/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/epic-80s-transitions.css"
+    ],
+```
 
 <br><br>
 <br><br>
