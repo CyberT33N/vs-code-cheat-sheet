@@ -40,6 +40,9 @@ Mac and Linux package managers may have customized installation path. Please dou
 # Settings
 - Open ~/.config/Code/User/settings.json
 
+<br><br>
+
+## Monokai Dark Thema
 ```javascript
 {
     "workbench.colorTheme": "Monokai Night",
