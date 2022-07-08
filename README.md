@@ -242,6 +242,26 @@ Mac and Linux package managers may have customized installation path. Please dou
 ## Synthwave x Fluoromachine & epic animations
 ```javascript
 {
+    "background.enabled": true,
+    "background.loop": true,
+    "background.useDefault": false,
+    "background.useFront": false,
+    "background.style": {
+          "content": "''",
+          "pointer-events": "none",
+          "position": "absolute",
+          "z-index": "99999",
+          "width": "100%",
+          "height": "100%",
+          "background-size": "cover",
+          "background-repeat": "no-repeat",
+          "opacity": 0.1
+      },
+    "background.customImages": [
+          "https://preview.redd.it/0bb6dqsiab451.gif?s=b0c65596a54a30708da26669da6e79abf3be1680",
+          "https://media2.giphy.com/media/gQvJdypeqrEyhZ9lzn/giphy.gif?cid=790b76118cd8aa4ef3ff335d2f602093346b6391cf3bdbae&rid=giphy.gif"
+      ],
+
     "workbench.colorTheme": "SynthWave '84",
     "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
     "workbench.colorCustomizations": {
