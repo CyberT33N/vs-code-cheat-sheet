@@ -242,6 +242,14 @@ Mac and Linux package managers may have customized installation path. Please dou
 ## Synthwave x Fluoromachine & epic animations
 ```javascript
 {
+    "workbench.colorTheme": "Synthwave x Fluoromachine & epic animations",
+    "workbench.iconTheme": "material-icon-theme",
+
+"powermode.enabled": true,
+    "powermode.presets": "flames",
+    "powermode.combo.counterSize": 1,
+    "powermode.shake.enabled": false
+ 
     "background.enabled": true,
     "background.loop": true,
     "background.useDefault": false,
@@ -262,8 +270,6 @@ Mac and Linux package managers may have customized installation path. Please dou
           "https://media2.giphy.com/media/gQvJdypeqrEyhZ9lzn/giphy.gif?cid=790b76118cd8aa4ef3ff335d2f602093346b6391cf3bdbae&rid=giphy.gif"
       ],
 
-    "workbench.colorTheme": "SynthWave '84",
-    "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
     "workbench.colorCustomizations": {
         "editor.background": "#1a1a1a",
     },
@@ -290,6 +296,13 @@ Mac and Linux package managers may have customized installation path. Please dou
                 }
             },
             {
+                "scope": "meta.object-literal.key.js",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fff"
+                }
+            },
+            {
                 "scope": "punctuation.definition.string.end.js",
                 "settings": {
                     "fontStyle": "",
@@ -303,6 +316,15 @@ Mac and Linux package managers may have customized installation path. Please dou
                     "foreground": "#fa115f"
                 }
             },
+            {
+                "scope": "punctuation.definition.section.case-statement.js",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f"
+                }
+            },
+            { "foreground": "#8A2DC0" }
+            
             {
                 "scope": "punctuation.definition.block.js",
                 "settings": {
@@ -697,6 +719,13 @@ Mac and Linux package managers may have customized installation path. Please dou
             },
             {
                 "scope": "variable.other.constant.js",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "punctuation.accessor.js",
                 "settings": {
                     "fontStyle": "",
                     "foreground": "#ffffff"
