@@ -245,10 +245,10 @@ Mac and Linux package managers may have customized installation path. Please dou
     "workbench.colorTheme": "Synthwave x Fluoromachine & epic animations",
     "workbench.iconTheme": "material-icon-theme",
 
-"powermode.enabled": true,
+    "powermode.enabled": true,
     "powermode.presets": "flames",
     "powermode.combo.counterSize": 1,
-    "powermode.shake.enabled": false
+    "powermode.shake.enabled": false,
  
     "background.enabled": true,
     "background.loop": true,
@@ -323,10 +323,22 @@ Mac and Linux package managers may have customized installation path. Please dou
                     "foreground": "#fa115f"
                 }
             },
-            { "foreground": "#8A2DC0" }
-            
             {
                 "scope": "punctuation.definition.block.js",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fff"
+                }
+            },
+            {
+                "scope": "string.quoted.double.yaml",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fffb00"
+                }
+            },
+            {
+                "scope": "entity.name.tag.yaml",
                 "settings": {
                     "fontStyle": "",
                     "foreground": "#fff"
@@ -387,7 +399,7 @@ Mac and Linux package managers may have customized installation path. Please dou
                     "fontStyle": "",
                     "foreground": "#ff9900"
                 }
-            }
+            },
             {
                 "scope": "entity.name.function.js",
                 "settings": {
@@ -711,6 +723,13 @@ Mac and Linux package managers may have customized installation path. Please dou
                 }
             },
             {
+                "scope": "storage.modifier.async.js",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f"
+                }
+            },
+            {
                 "scope": "meta.block.js",
                 "settings": {
                     "fontStyle": "",
@@ -757,7 +776,9 @@ Mac and Linux package managers may have customized installation path. Please dou
     "telemetry.telemetryLevel": "off",
     "eslint.alwaysShowStatus": true,
     "eslint.useESLintClass": true,
-    "editor.bracketPairColorization.enabled": false
+    "editor.bracketPairColorization.enabled": false,
+    "merge-conflict.autoNavigateNextConflict.enabled": true,
+    "git.mergeEditor": true
 }
 ```
 
