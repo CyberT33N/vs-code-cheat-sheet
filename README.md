@@ -9,6 +9,7 @@ VS Code Cheat Sheet with the most needed stuff..
 - https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-monokai-night
 - https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-power-mode
 - https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css
+- https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
 ```
 The extension would NOT work if Visual Studio Code cannot modify itself. The cases include:
 
