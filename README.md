@@ -34,6 +34,82 @@ Mac and Linux package managers may have customized installation path. Please dou
     ],
 ```
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+# Keybindings
+- Open File > Preferences > Keyboard Shortcuts
+
+<br><br>
+
+## Switch Windows
+- The workbench.action.switchWindow keybinding to select the window to switch to. It is bound to ctrl+w by default
+  - The workbench.action.quickSwitchWindow command. Unlike workbench.action.switchWindow, it automatically switches windows when you release the keys. It is not bound by default but you can configure a keybinding for it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+____________________________________________________
+____________________________________________________
+
+<br><br>
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 <br><br>
 
