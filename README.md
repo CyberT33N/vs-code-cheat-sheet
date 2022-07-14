@@ -11,6 +11,7 @@ VS Code Cheat Sheet with the most needed stuff..
 - https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css
 - https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
 - https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode
+- https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets
 ```
 The extension would NOT work if Visual Studio Code cannot modify itself. The cases include:
 
