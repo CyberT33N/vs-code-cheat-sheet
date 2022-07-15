@@ -45,6 +45,7 @@ ______________________________________________________
 
 
 # Extensions
+- https://marketplace.visualstudio.com/items?itemName=traBpUkciP.vscode-npm-scripts
 - https://marketplace.visualstudio.com/items?itemName=shalldie.background
 - https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 - https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-monokai-night
