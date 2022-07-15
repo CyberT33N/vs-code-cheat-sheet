@@ -1,7 +1,46 @@
 # VS Code Cheat Sheet
 VS Code Cheat Sheet with the most needed stuff..
 
+
+
+
+
 <br><br>
+
+
+# Uninstall 
+
+<br><br>
+
+## Fedora
+```
+sudo dnf remove code
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+______________________________________________________
+______________________________________________________
+<br><br>
+
+
 
 # Extensions
 - https://marketplace.visualstudio.com/items?itemName=shalldie.background
