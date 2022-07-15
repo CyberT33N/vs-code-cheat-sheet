@@ -15,6 +15,8 @@ VS Code Cheat Sheet with the most needed stuff..
 ## Fedora
 ```
 sudo dnf remove code
+
+# delete the folders ~/.config/Code and ~/.vscode
 ```
 
 
