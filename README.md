@@ -55,6 +55,7 @@ ______________________________________________________
 - https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
 - https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode
 - https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets
+- https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
 ```
 The extension would NOT work if Visual Studio Code cannot modify itself. The cases include:
 
