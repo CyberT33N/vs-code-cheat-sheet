@@ -45,6 +45,14 @@ ______________________________________________________
 
 
 # Extensions
+Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
+
+```bash
+ext install mikestead.dotenv traBpUkciP.vscode-npm-scripts shalldie.background dbaeumer.vscode-eslint abiospampinato.vscode-monokai-night hoovercj.vscode-power-mode be5invis.vscode-custom-css eamodio.gitlens TabNine.tabnine-vscode tonybaloney.vscode-pets ms-azuretools.vscode-docker TheCodemonkey.synthwave-x-fluoromachine-epic-animations
+```
+
+<br><br>
+
 - https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv
 - https://marketplace.visualstudio.com/items?itemName=traBpUkciP.vscode-npm-scripts
 - https://marketplace.visualstudio.com/items?itemName=shalldie.background
