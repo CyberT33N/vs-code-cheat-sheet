@@ -522,6 +522,93 @@ __________________________________________________________
 
 
 
+
+<br><br>
+<br><br>
+__________________________________________________________
+__________________________________________________________
+<br><br>
+<br><br>
+
+
+
+
+
+# Terminal
+
+
+<br><br>
+<br><br>
+
+
+
+## Auto open each start
+You just need to add a terminals.json file in your workspace (under .vscode) with something like this, and set autorun to true. This would auto-run the extension's Terminals: Run command on startup to auto-load your terminals.
+```javascript
+{
+    "autorun": true,
+    "autokill": true,
+    "terminals": [
+        {
+            "name": "GIT",
+            "description": "For running git commands",
+            "open": true,
+            "focus": true,
+            "commands": [
+                "pwd",
+                "git fetch -v"
+            ]
+        },
+        {
+            "name": "BUILD",
+            "description": "For running build commands",
+            "open": true,
+            "focus": false,
+            "commands": [
+                "cd apps",
+                "./clean.sh"
+            ]
+        },
+        {
+            "name": "SCRIPTS",
+            "description": "For running python commands",
+            "open": true,
+            "focus": false,
+            "commands": [
+                "source $VENV_DIR/test-py38/bin/activate",
+                "python -V"
+            ]
+        },
+    ]
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 <br><br>
 __________________________________________________________
