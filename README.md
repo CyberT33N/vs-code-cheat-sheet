@@ -52,6 +52,8 @@ ext install mikestead.dotenv traBpUkciP.vscode-npm-scripts shalldie.background d
 ```
 
 <br><br>
+- https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
+- https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.intellicode-api-usage-examples
 - https://marketplace.visualstudio.com/items?itemName=oouo-diogo-perdigao.docthis
 - https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv
 - https://marketplace.visualstudio.com/items?itemName=traBpUkciP.vscode-npm-scripts
