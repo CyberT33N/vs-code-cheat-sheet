@@ -66,6 +66,7 @@ ext install mikestead.dotenv traBpUkciP.vscode-npm-scripts shalldie.background d
 - https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode
 - https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets
 - https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
+- https://marketplace.visualstudio.com/items?itemName=vikas.code-navigation
 ```
 The extension would NOT work if Visual Studio Code cannot modify itself. The cases include:
 
