@@ -5,7 +5,26 @@ VS Code Cheat Sheet with the most needed stuff..
 
 
 
+
 <br><br>
+
+
+
+
+
+
+
+# Install
+- https://code.visualstudio.com/Download
+  - You should not install it via snap because then it is read only and the code from below at extensions will not work
+
+
+<br><br>
+
+
+
+
+
 
 
 # Uninstall 
