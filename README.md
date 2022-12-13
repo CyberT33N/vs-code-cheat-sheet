@@ -67,7 +67,7 @@ ______________________________________________________
 Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
 
 ```bash
-ext install mikestead.dotenv traBpUkciP.vscode-npm-scripts shalldie.background dbaeumer.vscode-eslint abiospampinato.vscode-monokai-night hoovercj.vscode-power-mode be5invis.vscode-custom-css eamodio.gitlens TabNine.tabnine-vscode tonybaloney.vscode-pets ms-azuretools.vscode-docker TheCodemonkey.synthwave-x-fluoromachine-epic-animations stevencl.addDocComments vikas.code-navigation stevencl.addDocComments
+ext install mikestead.dotenv traBpUkciP.vscode-npm-scripts shalldie.background dbaeumer.vscode-eslint abiospampinato.vscode-monokai-night hoovercj.vscode-power-mode be5invis.vscode-custom-css eamodio.gitlens TabNine.tabnine-vscode tonybaloney.vscode-pets ms-azuretools.vscode-docker TheCodemonkey.synthwave-x-fluoromachine-epic-animations stevencl.addDocComments vikas.code-navigation stevencl.addDocComments gencay.vscode-chatgpt
 ```
 
 <br><br>
@@ -87,6 +87,7 @@ ext install mikestead.dotenv traBpUkciP.vscode-npm-scripts shalldie.background d
 - https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets
 - https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
 - https://marketplace.visualstudio.com/items?itemName=vikas.code-navigation
+- https://marketplace.visualstudio.com/items?itemName=gencay.vscode-chatgpt
 ```
 The extension would NOT work if Visual Studio Code cannot modify itself. The cases include:
 
