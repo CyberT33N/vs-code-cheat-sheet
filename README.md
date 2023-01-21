@@ -71,7 +71,11 @@ ext install DanielSanMedium.dscodegpt ryu1kn.partial-diff mikestead.dotenv traBp
 ```
 
 <br><br>
+# OpenAI
+- Get API key here: https://beta.openai.com/account/api-keys
 - https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt
+
+
 - https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff
 - https://marketplace.visualstudio.com/items?itemName=stevencl.addDocComments
 - https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
