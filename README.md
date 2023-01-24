@@ -146,6 +146,16 @@ Mac and Linux package managers may have customized installation path. Please dou
 - The workbench.action.switchWindow keybinding to select the window to switch to. It is bound to ctrl+w by default
   - The workbench.action.quickSwitchWindow command. Unlike workbench.action.switchWindow, it automatically switches windows when you release the keys. It is not bound by default but you can configure a keybinding for it.
 
+<br><br>
+
+## Open specific file new window
+```shell
+On Windows and Linux, press CTRL+K, then release the keys and press O (the letter O, not Zero).
+
+On macOS, press CMD+K, then O (without holding CMD).
+
+This will open the active file tab in a new window/instance.
+```
 
 
 
