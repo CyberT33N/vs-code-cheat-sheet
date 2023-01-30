@@ -27,6 +27,17 @@ VS Code Cheat Sheet with the most needed stuff..
 
 
 
+
+
+
+<br><br>
+______________________________________________________
+______________________________________________________
+<br><br>
+
+
+
+
 # Uninstall 
 
 <br><br>
@@ -37,6 +48,39 @@ sudo dnf remove code
 
 # delete the folders ~/.config/Code and ~/.vscode
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+______________________________________________________
+______________________________________________________
+<br><br>
+
+
+# Workflows
+
+<br><br>
+
+## Merge Conflicts
+
+<br><br>
+
+### Deleted files
+- Right click on merge conflict and then click stage changes and then click delete file
+
+
+
+
+
 
 
 
