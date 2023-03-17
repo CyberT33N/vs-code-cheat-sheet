@@ -605,6 +605,7 @@ __________________________________________________________
 
 
 # Debug
+- https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_javascript-debug-terminal
 
 ## Automatically start all npm run command in debug mode:
 - Ctrl+Shift+P -> Toogle Auto Attach -> Always
