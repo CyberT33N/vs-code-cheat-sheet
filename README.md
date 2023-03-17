@@ -111,7 +111,7 @@ ______________________________________________________
 Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
 
 ```bash
-ext install DanielSanMedium.dscodegpt ryu1kn.partial-diff mikestead.dotenv traBpUkciP.vscode-npm-scripts shalldie.background dbaeumer.vscode-eslint abiospampinato.vscode-monokai-night hoovercj.vscode-power-mode be5invis.vscode-custom-css eamodio.gitlens TabNine.tabnine-vscode tonybaloney.vscode-pets ms-azuretools.vscode-docker TheCodemonkey.synthwave-x-fluoromachine-epic-animations stevencl.addDocComments vikas.code-navigation stevencl.addDocComments gencay.vscode-chatgpt
+ext install  fabiospampinato.vscode-terminals DanielSanMedium.dscodegpt ryu1kn.partial-diff mikestead.dotenv traBpUkciP.vscode-npm-scripts shalldie.background dbaeumer.vscode-eslint abiospampinato.vscode-monokai-night hoovercj.vscode-power-mode be5invis.vscode-custom-css eamodio.gitlens TabNine.tabnine-vscode tonybaloney.vscode-pets ms-azuretools.vscode-docker TheCodemonkey.synthwave-x-fluoromachine-epic-animations stevencl.addDocComments vikas.code-navigation stevencl.addDocComments gencay.vscode-chatgpt
 ```
 
 <br><br>
@@ -140,6 +140,7 @@ ext install DanielSanMedium.dscodegpt ryu1kn.partial-diff mikestead.dotenv traBp
 - https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
 - https://marketplace.visualstudio.com/items?itemName=vikas.code-navigation
 - https://marketplace.visualstudio.com/items?itemName=gencay.vscode-chatgpt
+- https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-terminals
 ```
 The extension would NOT work if Visual Studio Code cannot modify itself. The cases include:
 
@@ -238,7 +239,37 @@ ____________________________________________________
 
 
 
-
+# Terminals Manager
+1. Shift + P 
+  - Terminals: Edit Configuration
+```javascript
+{
+  "autorun": true,
+  "autokill": true,
+  "terminals": [
+    {
+      "name": "project 1",
+      "description": "test",
+      "execute" : true,
+      "focus": true,
+      "commands": [
+        "cd servers/ccs",
+        "npm run start-dev"
+      ]
+    },
+    {
+      "name": "ui",
+      "execute" : true,
+      "commands": [
+        "cd ui/ccs",
+        "sencha app watch"
+      ]
+    }
+  ]
+}
+```
+2. Shift + P
+  -  Terminals: Run
 
 
 
