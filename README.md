@@ -606,7 +606,12 @@ __________________________________________________________
 
 # Debug
 
-## Run npm scripts from package.json with 1-click from your sidebar
+## Automatically start all npm run command in debug mode:
+- Ctrl+Shift+P -> Toogle Auto Attach -> Always
+
+## Extensions
+
+### Run npm scripts from package.json with 1-click from your sidebar
 - View - Open View -> NPM Scripts
 
 
