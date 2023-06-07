@@ -131,6 +131,12 @@ ext install  fabiospampinato.vscode-terminals DanielSanMedium.dscodegpt ryu1kn.p
 - https://marketplace.visualstudio.com/items?itemName=traBpUkciP.vscode-npm-scripts
 - https://marketplace.visualstudio.com/items?itemName=shalldie.background
 - https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+```
+# Run inside your project
+npm i -dev eslint
+eslint --init
+```
+
 - https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-monokai-night
 - https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-power-mode
 - https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css
