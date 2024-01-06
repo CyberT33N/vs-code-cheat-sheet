@@ -26,7 +26,21 @@ VS Code Cheat Sheet with the most needed stuff..
 
 
 
+# Update
 
+## Linux
+- Check if you installed VS Code via debian file or via snap store
+```shell
+#.deb
+dpkg -l | grep code
+
+# snap
+snap list code
+```
+- If you installed via .deb just download the latest one and then install it
+  ```shell
+  sudo apt install xxx.deb
+  ```
 
 
 
