@@ -125,7 +125,7 @@ ______________________________________________________
 Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
 
 ```bash
-ext install  fabiospampinato.vscode-terminals DanielSanMedium.dscodegpt ryu1kn.partial-diff mikestead.dotenv traBpUkciP.vscode-npm-scripts shalldie.background dbaeumer.vscode-eslint abiospampinato.vscode-monokai-night hoovercj.vscode-power-mode be5invis.vscode-custom-css eamodio.gitlens TabNine.tabnine-vscode tonybaloney.vscode-pets ms-azuretools.vscode-docker TheCodemonkey.synthwave-x-fluoromachine-epic-animations stevencl.addDocComments vikas.code-navigation stevencl.addDocComments gencay.vscode-chatgpt ms-vscode.live-server leodevbro.blockman usernamehw.errorlens s-nlf-fh.glassit
+ext install  fabiospampinato.vscode-terminals DanielSanMedium.dscodegpt ryu1kn.partial-diff mikestead.dotenv traBpUkciP.vscode-npm-scripts shalldie.background dbaeumer.vscode-eslint abiospampinato.vscode-monokai-night hoovercj.vscode-power-mode be5invis.vscode-custom-css eamodio.gitlens TabNine.tabnine-vscode tonybaloney.vscode-pets ms-azuretools.vscode-docker TheCodemonkey.synthwave-x-fluoromachine-epic-animations stevencl.addDocComments vikas.code-navigation stevencl.addDocComments gencay.vscode-chatgpt ms-vscode.live-server leodevbro.blockman usernamehw.errorlens s-nlf-fh.glassit ChakrounAnas.turbo-console-log
 ```
 
 <br><br>
@@ -139,7 +139,8 @@ ext install  fabiospampinato.vscode-terminals DanielSanMedium.dscodegpt ryu1kn.p
 - https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server
 - https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens
 - https://marketplace.visualstudio.com/items?itemName=s-nlf-fh.glassit
-  
+- https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log
+
 - https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff
 - https://marketplace.visualstudio.com/items?itemName=stevencl.addDocComments
 - https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
