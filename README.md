@@ -152,7 +152,6 @@ ext install  fabiospampinato.vscode-terminals DanielSanMedium.dscodegpt ryu1kn.p
 - https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.intellicode-api-usage-examples
 - https://marketplace.visualstudio.com/items?itemName=oouo-diogo-perdigao.docthis
 - https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv
-- https://marketplace.visualstudio.com/items?itemName=traBpUkciP.vscode-npm-scripts
 - https://marketplace.visualstudio.com/items?itemName=shalldie.background
 - https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 ```
