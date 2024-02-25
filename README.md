@@ -143,6 +143,18 @@ ext install  fabiospampinato.vscode-terminals DanielSanMedium.dscodegpt ryu1kn.p
 
 - https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client
 - https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode
+```shell
+# https://docs.pieces.app/installation-getting-started/linux
+sudo snap install pieces-os
+sudo snap connect pieces-os:process-control :process-control
+
+# NO UI
+pieces-os
+
+# With UI
+pieces-for-developers
+pieces-for-developers
+```
 
 - https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons
 - https://marketplace.visualstudio.com/items?itemName=miguelsolorio.symbols
