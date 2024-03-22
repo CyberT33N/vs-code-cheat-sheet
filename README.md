@@ -88,8 +88,25 @@ ______________________________________________________
 
 <br><br>
 
+### Good 2 Know
+Imagine you would do:
+```shell
+git checkout branchA
+git merge --squash branchB
+```
+- Then **branchA is current** and **branchB is incoming**
+
+<br><br>
+<br><br>
+
+### Merge Editor
+- **Always double check the bottom final result Window where your results getting combined. For whatever reason when you accept e.g. any code block from the incoming window and clicking on `accept incoming` then you have to choose to click `remove current` from the final result window. Otherwhise you will have the code of incoming and current together in your final result
+
+<br><br>
+
 ### Deleted files
-- Right click on merge conflict and then click stage changes and then click delete file
+- Right click on the deleted file and and then click stage changes (Or click the + Button this will stage aswell) and then click yes
+  - If needed check if the file was really deleted but should be doe
 
 
 
