@@ -122,6 +122,46 @@ git merge --squash branchB
 
 
 
+<br><br>
+______________________________________________________
+______________________________________________________
+<br><br>
+
+
+
+
+
+# jsconfig.json
+- https://code.visualstudio.com/docs/languages/jsconfig
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
