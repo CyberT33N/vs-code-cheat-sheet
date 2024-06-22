@@ -7,7 +7,7 @@ VS Code Cheat Sheet with the most needed stuff..
 
 
 <br><br>
-
+<br><br>
 
 
 
@@ -20,7 +20,7 @@ VS Code Cheat Sheet with the most needed stuff..
 
 
 <br><br>
-
+<br><br>
 
 
 
@@ -41,6 +41,31 @@ snap list code
   ```shell
   sudo apt install xxx.deb
   ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -122,6 +147,19 @@ git merge --squash branchB
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 ______________________________________________________
 ______________________________________________________
@@ -136,6 +174,55 @@ ______________________________________________________
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+______________________________________________________
+______________________________________________________
+<br><br>
+
+
+
+
+
+# settings.json
+- `sudo gedit ~/.config/Code/User/settings.json`
+
+## Auto eslint on save
+```javascript
+"editor.codeActionsOnSave": {
+       "source.fixAll.eslint": true
+     } 
+```
 
 
 
