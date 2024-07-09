@@ -288,24 +288,14 @@ ______________________________________________________
 # Extensions
 Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
 
-```bash
-ext install  fabiospampinato.vscode-terminals DanielSanMedium.dscodegpt ryu1kn.partial-diff mikestead.dotenv traBpUkciP.vscode-npm-scripts shalldie.background dbaeumer.vscode-eslint abiospampinato.vscode-monokai-night hoovercj.vscode-power-mode be5invis.vscode-custom-css eamodio.gitlens TabNine.tabnine-vscode tonybaloney.vscode-pets ms-azuretools.vscode-docker TheCodemonkey.synthwave-x-fluoromachine-epic-animations stevencl.addDocComments vikas.code-navigation stevencl.addDocComments gencay.vscode-chatgpt ms-vscode.live-server leodevbro.blockman usernamehw.errorlens s-nlf-fh.glassit ChakrounAnas.turbo-console-log BrandonKirbyson.vscode-animations miguelsolorio.fluent-icons miguelsolorio.symbols rangav.vscode-thunder-client MeshIntelligentTechnologiesInc.pieces-vscode
-```
-
+<br><br>
 <br><br>
 
-// OpenAI
-- Get API key here: https://beta.openai.com/account/api-keys
-- https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt
 
-<br><br>
-- https://marketplace.visualstudio.com/items?itemName=leodevbro.blockman
-- https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server
+## Best choice
 - https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens
 - https://marketplace.visualstudio.com/items?itemName=s-nlf-fh.glassit
-- https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log
-
-- https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client
+ 
 - https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode
 ```shell
 # https://docs.pieces.app/installation-getting-started/linux
@@ -322,13 +312,14 @@ pieces-for-developers
 - https://marketplace.visualstudio.com/items?itemName=BrandonKirbyson.vscode-animations
 
 - https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff
-- https://marketplace.visualstudio.com/items?itemName=stevencl.addDocComments
-- https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
-- https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.intellicode-api-usage-examples
-- https://marketplace.visualstudio.com/items?itemName=oouo-diogo-perdigao.docthis
+
 - https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv
+
 - https://marketplace.visualstudio.com/items?itemName=shalldie.background
+
 - https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+
+
 ```
 # Run inside your project
 npm i -dev eslint
@@ -336,14 +327,55 @@ eslint --init
 ```
 
 - https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-monokai-night
-- https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-power-mode
+
 - https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css
+
 - https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
-- https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode
+
 - https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets
-- https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
+
 - https://marketplace.visualstudio.com/items?itemName=vikas.code-navigation
+```shell
+ext install usernamehw.errorlens s-nlf-fh.glassit MeshIntelligentTechnologiesInc.pieces-vscode miguelsolorio.fluent-icons miguelsolorio.symbols BrandonKirbyson.vscode-animation ryu1kn.partial-diff mikestead.dotenv shalldie.background dbaeumer.vscode-eslint abiospampinato.vscode-monokai-night be5invis.vscode-custom-css eamodio.gitlens tonybaloney.vscode-pets vikas.code-navigation
+```
+
+
+
+
+
+
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+
+## All
+```shell
+ext install fabiospampinato.vscode-terminals DanielSanMedium.dscodegpt ryu1kn.partial-diff mikestead.dotenv traBpUkciP.vscode-npm-scripts shalldie.background dbaeumer.vscode-eslint abiospampinato.vscode-monokai-night hoovercj.vscode-power-mode be5invis.vscode-custom-css eamodio.gitlens TabNine.tabnine-vscode tonybaloney.vscode-pets ms-azuretools.vscode-docker TheCodemonkey.synthwave-x-fluoromachine-epic-animations stevencl.addDocComments vikas.code-navigation stevencl.addDocComments gencay.vscode-chatgpt ms-vscode.live-server leodevbro.blockman usernamehw.errorlens s-nlf-fh.glassit ChakrounAnas.turbo-console-log BrandonKirbyson.vscode-animations miguelsolorio.fluent-icons miguelsolorio.symbols rangav.vscode-thunder-client MeshIntelligentTechnologiesInc.pieces-vscode
+```
+
+
+<br><br>
+- https://marketplace.visualstudio.com/items?itemName=leodevbro.blockman
+- https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server
+- https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log
+- https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client
+
+- https://marketplace.visualstudio.com/items?itemName=oouo-diogo-perdigao.docthis
+- https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv
+  
+- https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-power-mode
+  
+- https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode
+  
+- https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets
+  
+- https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
+ 
+  
 - https://marketplace.visualstudio.com/items?itemName=gencay.vscode-chatgpt
+- 
 - https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-terminals
 ```
 The extension would NOT work if Visual Studio Code cannot modify itself. The cases include:
@@ -386,7 +418,10 @@ Mac and Linux package managers may have customized installation path. Please dou
 
 <br><br>
 <br><br>
-
+__________________________________________________________________
+__________________________________________________________________
+<br><br>
+<br><br>
 
 # Keybindings
 - Open File > Preferences > Keyboard Shortcuts
