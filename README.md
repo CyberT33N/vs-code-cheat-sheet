@@ -236,8 +236,6 @@ ______________________________________________________
 - `sudo gedit ~/.config/Code/User/settings.json`
 - Make sure to install font fira code
 
-
-
 ```javascript
 {
     "files.useExperimentalFileWatcher": true,
@@ -323,6 +321,38 @@ ______________________________________________________
     "editor.tokenColorCustomizations": {
         "variables": "#ffffff",
         "textMateRules": [
+            {
+                "scope": "storage.type.class.jsdoc",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#636363"
+                }
+            },
+            {
+                "scope": "comment.block.documentation.js",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#636363"
+                }
+            },
+            {
+                "scope": "variable.other.jsdoc",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#ffffff92"
+                }
+            },
+            {
+                "scope": "entity.name.type.instance.jsdoc",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fffb0077"
+                }
+            },
+            
+
+
+
             {
                 "scope": "entity.name.type.ts",
                 "settings": {
@@ -1037,7 +1067,6 @@ ______________________________________________________
     "debug.disassemblyView.showSourceCode": false,
     "workbench.colorTheme": "Monokai Night"
 }
-
 ```
 
 
