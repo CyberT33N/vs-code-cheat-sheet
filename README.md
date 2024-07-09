@@ -22,6 +22,22 @@ sudo apt install code
 ```
 
 
+
+<br><br>
+<br><br>
+
+
+# Uninstall
+```shell
+sudo apt purge code
+```
+
+
+
+
+
+
+
 <br><br>
 <br><br>
 
