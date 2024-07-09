@@ -28,8 +28,21 @@ sudo apt install code
 
 
 # Uninstall
+
+## Ubuntu
 ```shell
 sudo apt purge code
+sudo apt autoremove
+rm -rf ~/.vscode ~/.config/Code
+```
+
+<br><br>
+
+## Fedora
+```shell
+sudo dnf remove code
+sudo apt autoremove
+rm -rf ~/.vscode ~/.config/Code
 ```
 
 
@@ -38,9 +51,13 @@ sudo apt purge code
 
 
 
+
+
 <br><br>
 <br><br>
 
+<br><br>
+<br><br>
 
 
 
@@ -76,36 +93,6 @@ snap list code
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<br><br>
-______________________________________________________
-______________________________________________________
-<br><br>
-
-
-
-
-# Uninstall 
-
-<br><br>
-
-## Fedora
-```
-sudo dnf remove code
-
-# delete the folders ~/.config/Code and ~/.vscode
-```
 
 
 
@@ -179,6 +166,15 @@ git merge --squash branchB
 
 
 
+
+
+
+
+
+
+
+
+
 <br><br>
 ______________________________________________________
 ______________________________________________________
@@ -190,6 +186,9 @@ ______________________________________________________
 
 # jsconfig.json
 - https://code.visualstudio.com/docs/languages/jsconfig
+
+
+
 
 
 
