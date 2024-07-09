@@ -236,6 +236,8 @@ ______________________________________________________
 - `sudo gedit ~/.config/Code/User/settings.json`
 - Make sure to install font fira code
 
+
+# Make sure to install extension listed above. Thise settings.json is pre designed
 ```javascript
 {
     "files.useExperimentalFileWatcher": true,
@@ -349,7 +351,60 @@ ______________________________________________________
                     "foreground": "#fffb0077"
                 }
             },
+            {
+                "scope": "storage.type.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f"
+                }
+            },
+            {
+                "scope": "storage.type.function.arrow.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f"
+                }
+            },
+            {
+                "scope": "storage.type.function.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f"
+                }
+            },
+            {
+                "scope": "storage.type.class.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f"
+                }
+            },
+            {
+                "scope": "storage.type.interface.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f"
+                }
+            },
+            {
+                "scope": "storage.type.type.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f"
+                }
+            },
+            {
+                "scope": "entity.name.type.class.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#0066ff"
+                }
+            },
+
             
+            
+
+
 
 
 
@@ -1065,7 +1120,11 @@ ______________________________________________________
     ],
     "github.copilot.editor.enableAutoCompletions": true,
     "debug.disassemblyView.showSourceCode": false,
-    "workbench.colorTheme": "Monokai Night"
+    "workbench.colorTheme": "Monokai Night",
+    "workbench.productIconTheme": "fluent-icons",
+    "vscode_custom_css.imports": [
+        "file:///home/t33n/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
+    ]
 }
 ```
 
