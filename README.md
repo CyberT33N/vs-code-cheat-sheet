@@ -240,7 +240,7 @@ ______________________________________________________
 # Make sure to install extension listed above. Thise settings.json is pre designed
 ```javascript
 {
-    "files.useExperimentalFileWatcher": true,
+    "npm.packageManager": "npm",
     "workbench.iconTheme": "symbols",
 
     "editor.inlayHints.fontFamily": "Roboto",
