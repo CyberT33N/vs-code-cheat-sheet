@@ -330,6 +330,16 @@ ______________________________________________________
                     "foreground": "#636363"
                 }
             },
+
+            {
+                "scope": "support.type.builtin.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fffb0077"
+                }
+            },
+    
+
             {
                 "scope": "comment.block.documentation.js",
                 "settings": {
