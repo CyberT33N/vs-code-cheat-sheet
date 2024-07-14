@@ -1640,3 +1640,57 @@ __________________________________________________________
 ## Comment out Code
 - CTRL + SHIFT + /
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+__________________________________________________________
+__________________________________________________________
+<br><br>
+<br><br>
+
+
+# FAQ
+
+## npm not found
+First go Settings > search for `package manager` and choose `npm`
+
+1. On your VsCode in Mac : shift + command + P .
+2. On the Prompt > type : Terminal: Select Default Profile , then "Click it". Note, as you type you will find this option in the auto-complete .
+3. Click the option for zsh or your desired shell.
+4. Restart VSCode
