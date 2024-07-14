@@ -265,7 +265,7 @@ ______________________________________________________
         "editor.selectionHighlightBackground": "#ffffff",
         "editor.findMatchBackground": "#135564",
         "editor.findMatchHighlightBackground": "#135564",
-        "editor.lineHighlightBackground": "#ffffff8a",
+        "editor.lineHighlightBackground": "#ffffff29",
         
         
         "editorLineNumber.foreground": "#ffffff40",
