@@ -261,11 +261,11 @@ ______________________________________________________
         
         "editor.background": "#1a1a1a",
         
-        "editor.selectionBackground": "#135564",
-        "editor.selectionHighlightBackground": "#135564",
+        "editor.selectionBackground": "#b8b8b8",
+        "editor.selectionHighlightBackground": "#ffffff",
         "editor.findMatchBackground": "#135564",
         "editor.findMatchHighlightBackground": "#135564",
-        "editor.lineHighlightBackground": "#ffffff3b",
+        "editor.lineHighlightBackground": "#ffffff8a",
         
         
         "editorLineNumber.foreground": "#ffffff40",
