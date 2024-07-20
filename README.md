@@ -240,7 +240,7 @@ ______________________________________________________
 # Make sure to install extension listed above. Thise settings.json is pre designed
 ```javascript
 {
-    "npm.packageManager": "npm",
+    "files.useExperimentalFileWatcher": true,
     "workbench.iconTheme": "symbols",
 
     "editor.inlayHints.fontFamily": "Roboto",
@@ -262,7 +262,7 @@ ______________________________________________________
         "editor.background": "#1a1a1a",
         
         "editor.selectionBackground": "#b8b8b8",
-        "editor.selectionHighlightBackground": "#ffffff",
+        "editor.selectionHighlightBackground": "#ffffff54",
         "editor.findMatchBackground": "#135564",
         "editor.findMatchHighlightBackground": "#135564",
         "editor.lineHighlightBackground": "#ffffff29",
@@ -330,16 +330,6 @@ ______________________________________________________
                     "foreground": "#636363"
                 }
             },
-
-            {
-                "scope": "support.type.builtin.ts",
-                "settings": {
-                    "fontStyle": "",
-                    "foreground": "#fffb0077"
-                }
-            },
-    
-
             {
                 "scope": "comment.block.documentation.js",
                 "settings": {
@@ -362,6 +352,30 @@ ______________________________________________________
                 }
             },
             {
+                "scope": "support.type.builtin.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fffb0077"
+                }
+            },
+            {
+                "scope": "support.type.builtin.tsx",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fffb0077"
+                }
+            },
+    
+            
+
+            {
+                "scope": "storage.type.tsx",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f"
+                }
+            },
+            {
                 "scope": "storage.type.ts",
                 "settings": {
                     "fontStyle": "",
@@ -376,7 +390,21 @@ ______________________________________________________
                 }
             },
             {
+                "scope": "storage.type.function.arrow.tsx",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f"
+                }
+            },
+            {
                 "scope": "storage.type.function.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f"
+                }
+            },
+            {
+                "scope": "storage.type.function.tsx",
                 "settings": {
                     "fontStyle": "",
                     "foreground": "#fa115f"
@@ -390,7 +418,21 @@ ______________________________________________________
                 }
             },
             {
+                "scope": "storage.type.class.tsx",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f"
+                }
+            },
+            {
                 "scope": "storage.type.interface.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f"
+                }
+            },
+            {
+                "scope": "storage.type.interface.tsx",
                 "settings": {
                     "fontStyle": "",
                     "foreground": "#fa115f"
@@ -404,7 +446,21 @@ ______________________________________________________
                 }
             },
             {
+                "scope": "storage.type.type.tsx",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f"
+                }
+            },
+            {
                 "scope": "entity.name.type.class.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#0066ff"
+                }
+            },
+            {
+                "scope": "entity.name.type.class.tsx",
                 "settings": {
                     "fontStyle": "",
                     "foreground": "#0066ff"
@@ -425,9 +481,23 @@ ______________________________________________________
                     "foreground": "#fffb0077"
                 }
             },
+            {
+                "scope": "entity.name.type.tsx",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fffb0077"
+                }
+            },
 
             {
                 "scope": "keyword.operator.optional.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#ff005583"
+                }
+            },
+            {
+                "scope": "keyword.operator.optional.tsx",
                 "settings": {
                     "fontStyle": "",
                     "foreground": "#ff005583"
@@ -440,9 +510,22 @@ ______________________________________________________
                     "foreground": "#9dff00"
                 }
             },
-
+            {
+                "scope": "entity.name.function.tsx",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#9dff00"
+                }
+            },
             {
                 "scope": "meta.object-literal.key.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fff"
+                }
+            },
+            {
+                "scope": "meta.object-literal.key.tsx",
                 "settings": {
                     "fontStyle": "",
                     "foreground": "#fff"
@@ -457,7 +540,22 @@ ______________________________________________________
                 }
             },
             {
+                "scope": "support.type.primitive.tsx",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fffb0077"
+                }
+            },
+            {
                 "scope": "meta.type.annotation.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f49"
+
+                }
+            },
+            {
+                "scope": "meta.type.annotation.tsx",
                 "settings": {
                     "fontStyle": "",
                     "foreground": "#fa115f49"
@@ -472,7 +570,21 @@ ______________________________________________________
                 }
             },
             {
+                "scope": "keyword.operator.type.annotation.tsx",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f49"
+                }
+            },
+            {
                 "scope": "constant.language.undefined.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#FA115F"
+                }
+            },
+            {
+                "scope": "constant.language.undefined.tsx",
                 "settings": {
                     "fontStyle": "",
                     "foreground": "#FA115F"
@@ -481,9 +593,15 @@ ______________________________________________________
 
 
 
-
             {
                 "scope": "variable.object.property.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#ffffff7e"
+                }
+            },
+            {
+                "scope": "variable.object.property.tsx",
                 "settings": {
                     "fontStyle": "",
                     "foreground": "#ffffff7e"
@@ -496,7 +614,13 @@ ______________________________________________________
                     "foreground": "#ff9900"
                 }
             },
-     
+            {
+                "scope": "variable.parameter.tsx",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#ff9900"
+                }
+            },
 
 
 
@@ -1134,7 +1258,32 @@ ______________________________________________________
     "workbench.productIconTheme": "fluent-icons",
     "vscode_custom_css.imports": [
         "file:///home/t33n/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
-    ]
+    ],
+    "npm.packageManager": "npm",
+    "terminal.integrated.defaultProfile.linux": "zsh (2)",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        },
+        "zsh (2)": {
+            "path": "/usr/bin/zsh"
+        }
+    }
 }
 ```
 
