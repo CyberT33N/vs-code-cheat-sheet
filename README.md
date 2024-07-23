@@ -324,6 +324,13 @@ ______________________________________________________
         "variables": "#ffffff",
         "textMateRules": [
             {
+                "scope": "entity.name.type.module.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fffb0077"
+                }
+            },
+            {
                 "scope": "storage.type.class.jsdoc",
                 "settings": {
                     "fontStyle": "",
