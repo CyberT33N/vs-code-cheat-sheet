@@ -323,6 +323,20 @@ ______________________________________________________
     "editor.tokenColorCustomizations": {
         "variables": "#ffffff",
         "textMateRules": [
+    {
+                "scope": " storage.modifier.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f53"
+                }
+            },
+            {
+                "scope": "cast.expr.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#ffffff77"
+                }
+            },
             {
                 "scope": "entity.name.type.module.ts",
                 "settings": {
