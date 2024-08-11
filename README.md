@@ -323,6 +323,22 @@ ______________________________________________________
     "editor.tokenColorCustomizations": {
         "variables": "#ffffff",
         "textMateRules": [
+
+ {
+                "scope": "punctuation.definition.typeparameters.begin.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#ffffff70"
+                }
+            },
+            {
+                "scope": "punctuation.definition.typeparameters.end.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#ffffff70"
+                }
+            },
+
  {
                 "scope": "punctuation.accessor.ts",
                 "settings": {
