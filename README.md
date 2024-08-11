@@ -324,6 +324,23 @@ ______________________________________________________
         "variables": "#ffffff",
         "textMateRules": [
 
+    {
+                "scope": "punctuation.definition.block.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#ffffff94"
+                }
+            },
+            {
+                "scope": "meta.brace.square.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#ffffff94"
+                }
+            },
+
+
+
  {
                 "scope": "punctuation.definition.typeparameters.begin.ts",
                 "settings": {
