@@ -331,31 +331,6 @@ ______________________________________________________
                 }
             },
 
-  {
-                "scope": "string.quoted.single.ts",
-                "settings": {
-                    "fontStyle": "",
-                    "foreground": "#ffffff7a"
-                }
-            },
-
-            {
-                "scope": "punctuation.definition.string.begin.ts",
-                "settings": {
-                    "fontStyle": "",
-                    "foreground": "#ffffffa6"
-                }
-            },
-   
-            {
-                "scope": "punctuation.definition.string.end.ts",
-                "settings": {
-                    "fontStyle": "",
-                    "foreground": "#ffffffa6"
-                }
-            },
-   
-
 
     {
                 "scope": "punctuation.definition.block.ts",
