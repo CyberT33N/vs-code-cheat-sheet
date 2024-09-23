@@ -1416,6 +1416,7 @@ Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter
 
 
 ## Best choice
+- https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools
 - https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens
 - https://marketplace.visualstudio.com/items?itemName=s-nlf-fh.glassit
  
@@ -1459,7 +1460,7 @@ eslint --init
 
 - https://marketplace.visualstudio.com/items?itemName=vikas.code-navigation
 ```shell
-ext install usernamehw.errorlens s-nlf-fh.glassit MeshIntelligentTechnologiesInc.pieces-vscode miguelsolorio.fluent-icons miguelsolorio.symbols BrandonKirbyson.vscode-animation ryu1kn.partial-diff mikestead.dotenv shalldie.background dbaeumer.vscode-eslint abiospampinato.vscode-monokai-night be5invis.vscode-custom-css eamodio.gitlens tonybaloney.vscode-pets vikas.code-navigation
+ext install ms-kubernetes-tools.vscode-kubernetes-tools usernamehw.errorlens s-nlf-fh.glassit MeshIntelligentTechnologiesInc.pieces-vscode miguelsolorio.fluent-icons miguelsolorio.symbols BrandonKirbyson.vscode-animation ryu1kn.partial-diff mikestead.dotenv shalldie.background dbaeumer.vscode-eslint abiospampinato.vscode-monokai-night be5invis.vscode-custom-css eamodio.gitlens tonybaloney.vscode-pets vikas.code-navigation
 ```
 
 
