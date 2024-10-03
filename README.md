@@ -258,7 +258,11 @@ ______________________________________________________
         "editorInlayHint.parameterForeground": "#f8f4f44f",
         "editorInlayHint.typeBackground": "#08000088",
         "editorInlayHint.typeForeground": "#DDEEFF88",
-        
+
+        "editorHoverWidget.border": "#ffca28",
+        "editorHoverWidget.background": "#080808",
+        "editorHoverWidget.foreground": "#ffffff",
+
         "editor.background": "#1a1a1a",
         
         "editor.selectionBackground": "#b8b8b8",
