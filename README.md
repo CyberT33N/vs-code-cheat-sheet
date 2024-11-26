@@ -1342,11 +1342,13 @@ ______________________________________________________
         "file:///home/t33n/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
     ],
     "npm.packageManager": "npm",
-    "terminal.integrated.defaultProfile.linux": "zsh (2)",
+    "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.profiles.linux": {
+
         "bash": {
             "path": "bash",
-            "icon": "terminal-bash"
+            "icon": "terminal-bash",
+            "args": ["--login"]
         },
         "zsh": {
             "path": "zsh"
