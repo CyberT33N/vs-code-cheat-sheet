@@ -306,23 +306,29 @@ ______________________________________________________
     "workbench.editor.enablePreview": false,
     
     "background.enabled": true,
-    "background.useFront": false,
-    "background.style": {
-          "content": "''",
-          "pointer-events": "none",
-          "position": "absolute",
-          "z-index": "99999",
-          "width": "100%",
-          "height": "100%",
-          "background-size": "cover",
-          "background-repeat": "no-repeat",
-          "opacity": 0.1
-      },
-      
-    "background.customImages": [
-          "https://preview.redd.it/0bb6dqsiab451.gif?s=b0c65596a54a30708da26669da6e79abf3be1680",
-          "https://media2.giphy.com/media/gQvJdypeqrEyhZ9lzn/giphy.gif?cid=790b76118cd8aa4ef3ff335d2f602093346b6391cf3bdbae&rid=giphy.gif"
-      ],
+   "background.editor": {
+        
+        "useFront": true,
+        "style": {
+        "content": "''",
+            "pointer-events": "none",
+            "position": "absolute",
+            "z-index": "99999",
+            "width": "100%",
+            "height": "100%",
+            "background-size": "cover",
+            "background-repeat": "no-repeat",
+            "opacity": 0.1
+        },
+        "styles": [{}, {}, {}],
+        // Local images can be dragged into the browser to quickly get the file protocol address from the address bar
+        "images": [
+        "https://preview.redd.it/0bb6dqsiab451.gif?s=b0c65596a54a30708da26669da6e79abf3be1680",
+        "https://media2.giphy.com/media/gQvJdypeqrEyhZ9lzn/giphy.gif?cid=790b76118cd8aa4ef3ff335d2f602093346b6391cf3bdbae&rid=giphy.gif"
+    ],
+        "interval": 0,
+        "random": false
+    },
     "files.autoSave": "afterDelay",
     "editor.tokenColorCustomizations": {
         "variables": "#ffffff",
