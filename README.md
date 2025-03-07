@@ -1892,10 +1892,15 @@ __________________________________________________________
 <br><br>
 
 ## Comment out Code
+
+### Linux
 - CTRL + SHIFT + /
 
 
-
+### Windows
+Öffne die Tastenkombinationen (CTRL + K, dann CTRL + S).
+Suche nach "Toggle Line Comment".
+Klicke auf den Eintrag und weise CTRL + SHIFT + / als neue Kombination zu.
 
 
 
