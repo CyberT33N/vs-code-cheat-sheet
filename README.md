@@ -1349,6 +1349,7 @@ ______________________________________________________
     ],
     "npm.packageManager": "npm",
     "terminal.integrated.defaultProfile.linux": "zsh",
+    "cursor.general.enableShadowWorkspace": true,
     "terminal.integrated.profiles.linux": {
 
         "bash": {
