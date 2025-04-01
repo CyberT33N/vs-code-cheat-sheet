@@ -304,6 +304,10 @@ ______________________________________________________
     },
     
     "workbench.editor.enablePreview": false,
+
+    "workbench.editorAssociations": {
+        "*.mdc": "default"
+    },
     
     "background.enabled": true,
    "background.editor": {
