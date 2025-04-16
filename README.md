@@ -1577,6 +1577,28 @@ __________________________________________________________________
 # Keybindings
 - Open File > Preferences > Keyboard Shortcuts
 
+
+
+
+
+<br><br>
+
+# Toggle Line Comment
+
+Um den Tastenkürzel in **VSCode** zu ändern, kannst du die folgenden Schritte befolgen:
+
+1. Öffne **VSCode**.
+2. Gehe zu den **Einstellungen** (du kannst `Ctrl + ,` verwenden).
+3. Suche nach **"Keyboard Shortcuts"** oder gehe direkt zu den **Tastenkombinationen**.
+4. Suche nach dem Befehl **"Toggle Line Comment"**.
+5. Klicke auf das **Stift-Symbol** neben dem Befehl, um den Tastenkürzel zu ändern.
+6. Gib den gewünschten **Tastenkürzel** ein.
+
+Auf diese Weise kannst du den **Tastenkürzel** für das Auskommentieren von Code in **VSCode** anpassen.
+
+
+
+
 <br><br>
 
 ## Switch Windows
