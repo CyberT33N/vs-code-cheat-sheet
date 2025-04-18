@@ -1333,7 +1333,6 @@ ______________________________________________________
     "debug.allowBreakpointsEverywhere": true,
     "debug.console.fontFamily": "'Fira Code', 'monospace', monospace",
     "terminal.integrated.scrollback": 500000,
-    "terminal.integrated.windowsEnableConpty": false,
     "telemetry.telemetryLevel": "off",
     "eslint.useESLintClass": true,
     "editor.bracketPairColorization.enabled": false,
