@@ -28,6 +28,18 @@ sudo apt install code
 
 
 # Uninstall
+- https://code.visualstudio.com/docs/setup/uninstall
+
+## Windows
+
+f you installed VS Code via the Windows Installer, either the User or System version, use the installer to remove VS Code.
+
+Start menu
+Search for Add or Remove Programs and find Visual Studio Code in the Apps > Apps & features list.
+Select Uninstall from the actions dropdown on the right side (three vertical dots).
+Follow the prompts to uninstall VS Code.
+
+Delete %APPDATA%\Code and %USERPROFILE%\.vscode.
 
 ## Ubuntu
 ```shell
