@@ -1444,6 +1444,8 @@ Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter
 
 
 ## Best choice
+- https://marketplace.visualstudio.com/items/?itemName=bradlc.vscode-tailwindcss
+
 - https://marketplace.visualstudio.com/items?itemName=Nuxt.mdc
   
 - https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-speech
