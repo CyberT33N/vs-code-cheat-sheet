@@ -252,11 +252,9 @@ ______________________________________________________
 # Make sure to install extension listed above. Thise settings.json is pre designed
 ```javascript
 {
-    "files.useExperimentalFileWatcher": true,
     "workbench.iconTheme": "symbols",
 
-    "editor.inlayHints.fontFamily": "Roboto",
-    "editor.inlayHints.fontSize": 14,
+ 
 
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": "explicit"
@@ -314,12 +312,12 @@ ______________________________________________________
         "terminal.ansiWhite":"#A89984",
         "terminal.ansiYellow":"#f5f5f5"
     },
-    
-    "workbench.editor.enablePreview": false,
 
     "workbench.editorAssociations": {
         "*.mdc": "default"
     },
+        
+    "workbench.editor.enablePreview": false,
     
     "background.enabled": true,
    "background.editor": {
@@ -1312,9 +1310,20 @@ ______________________________________________________
             }
         ]
     },
-    "editor.fontSize": 16,
     "editor.tabSize": 5,
-    "editor.fontFamily": "'Fira Code', 'monospace', monospace",
+
+
+    "editor.inlayHints.fontSize": 14,
+
+    "editor.fontSize": 16,
+
+    "editor.inlayHints.fontFamily": "'GeistMono NF UltraLight'",
+    "debug.console.fontFamily": "'GeistMono NF UltraLight'",
+    "terminal.integrated.fontFamily": "'GeistMono NF UltraLight'",
+    "editor.fontFamily": "'GeistMono NF'",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "400",
+    
     "editor.wordWrap": "on",
     "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
     "editor.codeLensFontSize": 17,
@@ -1324,14 +1333,12 @@ ______________________________________________________
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": "off",
     "editor.cursorStyle": "line-thin",
-    "editor.fontLigatures": true,
-    "editor.fontWeight": "bold",
     "editor.minimap.scale": 2,
     "editor.minimap.size": "fit",
     "workbench.list.smoothScrolling": true,
     "workbench.preferredDarkColorTheme": "Monokai Dimmed",
     "debug.allowBreakpointsEverywhere": true,
-    "debug.console.fontFamily": "'Fira Code', 'monospace', monospace",
+
     "terminal.integrated.scrollback": 500000,
     "telemetry.telemetryLevel": "off",
     "eslint.useESLintClass": true,
@@ -1355,7 +1362,6 @@ ______________________________________________________
     "eslint.rules.customizations": [
     
     ],
-    "github.copilot.editor.enableAutoCompletions": true,
     "debug.disassemblyView.showSourceCode": false,
     "workbench.colorTheme": "Monokai Night",
     "workbench.productIconTheme": "fluent-icons",
@@ -1364,7 +1370,6 @@ ______________________________________________________
     ],
     "npm.packageManager": "npm",
     "terminal.integrated.defaultProfile.linux": "zsh",
-    "cursor.general.enableShadowWorkspace": true,
     "terminal.integrated.profiles.linux": {
 
         "bash": {
@@ -1389,7 +1394,22 @@ ______________________________________________________
         "zsh (2)": {
             "path": "/usr/bin/zsh"
         }
-    }
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "specstory.helpUsImprove": false,
+    "cursor.composer.shouldAllowCustomModes": true,
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
+    "roo-cline.allowedCommands": [
+        "npm test",
+        "npm install",
+        "tsc",
+        "git log",
+        "git diff",
+        "git show"
+    ],
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
 }
 ```
 
