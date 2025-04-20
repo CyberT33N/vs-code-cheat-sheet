@@ -1957,7 +1957,6 @@ ______________________________________________________
      "eslint.format.enable": true,
      "eslint.rules.customizations": [],
      "debug.disassemblyView.showSourceCode": false,
-     "workbench.colorTheme": "Lumen",
      "workbench.productIconTheme": "fluent-icons",
      "vscode_custom_css.imports": [
           "file:///home/t33n/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
@@ -2004,7 +2003,30 @@ ______________________________________________________
           "git diff",
           "git show"
      ],
-     "terminal.integrated.defaultProfile.windows": "PowerShell",
+     "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+     "terminal.integrated.profiles.windows": {
+          "PowerShell": {
+               "source": "PowerShell",
+               "icon": "terminal-powershell",
+               "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+          },
+          "Command Prompt": {
+               "path": [
+                    "${env:windir}\\Sysnative\\cmd.exe",
+                    "${env:windir}\\System32\\cmd.exe"
+               ],
+               "args": [],
+               "icon": "terminal-cmd"
+          },
+          "Git Bash": {
+               "source": "Git Bash"
+          },
+          "Windows PowerShell": {
+               "path": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+          }
+     },
+
+
      "cursor.general.enableShadowWorkspace": true,
      "vscode-angular-html.angularAnimationTriggerPrefix": "#7EAEF5",
      "vscode-angular-html.angularBindingAttributeDelimiter": "#7EAEF5",
@@ -2033,7 +2055,9 @@ ______________________________________________________
      "vscode-angular-html.xmlAttributeNamespaceSuffix": "#5BD1B9",
      "vscode-angular-html.xmlTagNamespaceDivider": "#7EAEF5",
      "vscode-angular-html.xmlTagNamespaceSuffix": "#5BD1B9",
-     "vscode-angular-html.controlFlowPrefix": "#7EAEF5"
+     "vscode-angular-html.controlFlowPrefix": "#7EAEF5",
+     "update.releaseTrack": "prerelease",
+     "workbench.colorTheme": "Lumen"
 }
 ```
 
