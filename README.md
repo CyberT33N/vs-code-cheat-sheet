@@ -249,7 +249,10 @@ ______________________________________________________
 - Make sure to install font fira code
 
 
-# Make sure to install extension listed above. Thise settings.json is pre designed
+
+
+# Design t33n
+- Make sure to install extension listed above. Thise settings.json is pre designed
 
 
 
