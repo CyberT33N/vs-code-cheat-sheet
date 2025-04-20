@@ -310,32 +310,105 @@ ______________________________________________________
           "*.mdc": "default"
      },
      "workbench.editor.enablePreview": false,
+
+
      "background.enabled": true,
-     "background.editor": {
+
+
+     "background.panel":
+     {
           "useFront": true,
           "style": {
-               "content": "''",
-               "pointer-events": "none",
-               "position": "absolute",
-               "z-index": "99999",
-               "width": "100%",
-               "height": "100%",
-               "background-size": "cover",
-               "background-repeat": "no-repeat",
-               "opacity": 0.1
+               // "content": "''",
+               // "pointer-events": "none",
+               // "position": "absolute",
+               // "z-index": "99999",
+               // "width": "100%",
+               // "height": "100%",
+               // "background-size": "cover",
+               // "background-repeat": "no-repeat",
+               // "opacity": 0.1
+
+               // "background-position": "100% 100%",
+               // "background-size": "auto",
           },
           "styles": [
                {},
                {},
                {}
           ],
+
+          "opacity": 0.1,
+          // "size": "cover",
+          // "position": "center",
+
           "images": [
-               "https://preview.redd.it/0bb6dqsiab451.gif?s=b0c65596a54a30708da26669da6e79abf3be1680",
-               "https://media2.giphy.com/media/gQvJdypeqrEyhZ9lzn/giphy.gif?cid=790b76118cd8aa4ef3ff335d2f602093346b6391cf3bdbae&rid=giphy.gif"
-          ],
-          "interval": 0,
-          "random": false
+               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Render%20Digital%20Art%20GIF%20by%20time%20(1).gif",
+               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Loop%20Space%20GIF%20by%20time%20(7).gif",
+             ],
+          "interval": 300,
+          "random": true
      },
+
+
+
+     "background.sidebar":
+     {
+         
+     },
+
+
+     "background.fullscreen": {
+          "useFront": true,
+          "style": {
+               // "content": "''",
+               // "pointer-events": "none",
+               // "position": "absolute",
+               // "z-index": "99999",
+               // "width": "100%",
+               // "height": "100%",
+               // "background-size": "cover",
+               // "background-repeat": "no-repeat",
+               // "opacity": 0.1
+
+               // "background-position": "100% 100%",
+               // "background-size": "auto",
+          },
+          "styles": [
+               {},
+               {},
+               {}
+          ],
+
+          "opacity": 0.05,
+          // "size": "cover",
+          // "position": "center",
+
+          "images": [
+               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/animation%20art%20GIF%20by%20xponentialdesign.gif",
+               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Art%20Glowing%20GIF%20by%20time%20(3).gif",
+               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Art%20Glowing%20GIF%20by%20time%20(5).gif",
+               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Art%20Render%20GIF%20by%20time%20(1).gif",
+               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Art%20Render%20GIF%20by%20time.gif",
+               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/download%20(1).gif",
+               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/download%20(4).gif",
+               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/download%20(5).gif",
+               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/download%20(6).gif",
+               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Loop%20Space%20GIF%20by%20time%20(1).gif",
+               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Loop%20Space%20GIF%20by%20time%20(3).gif",
+               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Loop%20Space%20GIF%20by%20time%20(6).gif",
+               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Loop%20Space%20GIF%20by%20time%20(7).gif",
+               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Loop%20Space%20GIF%20by%20time%20(8).gif",
+               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Render%20Digital%20Art%20GIF%20by%20time%20(1).gif",
+               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Render%20Digital%20Art%20GIF%20by%20time%20(3).gif",
+               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Render%20Digital%20Art%20GIF%20by%20time%20(5).gif",
+               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Render%20Digital%20Art%20GIF%20by%20time.gif"
+             ],
+          "interval": 300,
+          "random": true
+     },
+
+
      "files.autoSave": "afterDelay",
      "editor.tokenColorCustomizations": {
           "textMateRules": [
