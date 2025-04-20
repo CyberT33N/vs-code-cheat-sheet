@@ -382,7 +382,7 @@ ______________________________________________________
                {}
           ],
 
-          "opacity": 0.05,
+          "opacity": 0.1,
           // "size": "cover",
           // "position": "center",
 
@@ -394,12 +394,10 @@ ______________________________________________________
                "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Art%20Render%20GIF%20by%20time.gif",
                "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/download%20(1).gif",
                "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/download%20(4).gif",
-               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/download%20(5).gif",
                "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/download%20(6).gif",
                "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Loop%20Space%20GIF%20by%20time%20(1).gif",
                "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Loop%20Space%20GIF%20by%20time%20(3).gif",
                "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Loop%20Space%20GIF%20by%20time%20(6).gif",
-               "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Loop%20Space%20GIF%20by%20time%20(7).gif",
                "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Loop%20Space%20GIF%20by%20time%20(8).gif",
                "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Render%20Digital%20Art%20GIF%20by%20time%20(1).gif",
                "file:///C:/Users/denni/OneDrive/Dokumente/backgrounds/Render%20Digital%20Art%20GIF%20by%20time%20(3).gif",
@@ -2057,7 +2055,8 @@ ______________________________________________________
      "vscode-angular-html.xmlTagNamespaceSuffix": "#5BD1B9",
      "vscode-angular-html.controlFlowPrefix": "#7EAEF5",
      "update.releaseTrack": "prerelease",
-     "workbench.colorTheme": "Lumen"
+     "workbench.colorTheme": "Lumen",
+     "cursor.diffs.useCharacterLevelDiffs": true
 }
 ```
 
