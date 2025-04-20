@@ -1317,12 +1317,13 @@ ______________________________________________________
 
     "editor.fontSize": 16,
 
-    "editor.inlayHints.fontFamily": "'GeistMono NF UltraLight'",
-    "debug.console.fontFamily": "'GeistMono NF UltraLight'",
-    "terminal.integrated.fontFamily": "'GeistMono NF UltraLight'",
+    "editor.inlayHints.fontFamily": "'GeistMono NF'",
+    "debug.console.fontFamily": "'GeistMono NF'",
+    "terminal.integrated.fontFamily": "'GeistMono NF'",
     "editor.fontFamily": "'GeistMono NF'",
     "editor.fontLigatures": true,
-    "editor.fontWeight": "400",
+    "editor.fontWeight": "500",
+    
     
     "editor.wordWrap": "on",
     "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
