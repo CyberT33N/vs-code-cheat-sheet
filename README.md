@@ -1322,7 +1322,7 @@ ______________________________________________________
     "terminal.integrated.fontFamily": "'GeistMono NF'",
     "editor.fontFamily": "'GeistMono NF'",
     "editor.fontLigatures": true,
-    "editor.fontWeight": "500",
+    "editor.fontWeight": "550",
     
     
     "editor.wordWrap": "on",
