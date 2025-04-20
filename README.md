@@ -273,12 +273,14 @@ ______________________________________________________
           "editorHoverWidget.border": "#ffca28",
           "editorHoverWidget.background": "#080808",
           "editorHoverWidget.foreground": "#ffffff",
-          "editor.background": "#1a1a1a",
+
+          "editor.background": "#0c0c0c",
           "editor.selectionBackground": "#b8b8b8",
           "editor.selectionHighlightBackground": "#ffffff54",
           "editor.findMatchBackground": "#135564",
-          "editor.findMatchHighlightBackground": "#135564",
+          "editor.findMatchHighlightBackground": "#13556496",
           "editor.lineHighlightBackground": "#ffffff29",
+
           "editorLineNumber.foreground": "#ffffff40",
           "scrollbarSlider.background": "#ffca28c9",
           "scrollbarSlider.hoverBackground": "#ffca28",
