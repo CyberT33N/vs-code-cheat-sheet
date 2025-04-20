@@ -1411,6 +1411,7 @@ ______________________________________________________
         "git show"
     ],
     "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "cursor.general.enableShadowWorkspace": true
 }
 ```
 
