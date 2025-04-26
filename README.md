@@ -3,6 +3,9 @@ VS Code Cheat Sheet with the most needed stuff..
 
 
 
+## Build
+- https://github.com/CyberT33N/vs-code-build-cheat-sheet
+
 
 
 
