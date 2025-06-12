@@ -2073,7 +2073,8 @@ ______________________________________________________
      "vscode-angular-html.controlFlowPrefix": "#7EAEF5",
      "update.releaseTrack": "prerelease",
      "workbench.colorTheme": "Lumen",
-     "cursor.diffs.useCharacterLevelDiffs": true
+     "cursor.diffs.useCharacterLevelDiffs": true,
+     "diffEditor.renderSideBySide":false
 }
 ```
 
