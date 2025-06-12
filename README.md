@@ -232,6 +232,40 @@ ______________________________________________________
 
 
 
+<br><br>
+______________________________________________________
+______________________________________________________
+<br><br>
+
+
+# Diff
+
+##  **Inline-Diff** statt **Side-by-Side-Diff**
+
+### Lösung:
+
+1. Öffne die **Command Palette**:
+   `Ctrl + Shift + P` (oder `Cmd + Shift + P` auf Mac)
+
+2. Tippe:
+   `Preferences: Open Settings (UI)` → Enter
+
+3. Suche nach:
+   `diff editor`
+
+4. **Deaktiviere**:
+   `Diff Editor: Render Side By Side`
+
+   👉 Alternativ direkt in `settings.json`:
+
+   ```json
+   "diffEditor.renderSideBySide": false
+   ```
+
+Jetzt wird dein Diff inline angezeigt – wie ein gutes Streitgespräch: alles an einem Ort 😎
+
+
+
 
 
 
