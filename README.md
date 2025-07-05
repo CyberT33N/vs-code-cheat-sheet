@@ -2714,6 +2714,136 @@ __________________________________________________________
 <br><br>
 
 
+# Troubleshooting
+
+## VS Code freezing every few seconds
+
+
+<details><summary>Click to expand..</summary>
+
+For me worked from below:
+```json
+"typescript.tsserver.log": "verbose",
+"typescript.tsserver.experimental.enableProjectDiagnostics": false
+```
+
+
+### 🧠 **Hauptursachen & Fixes**
+
+#### 1. 🔍 **TypeScript Language Server (tsserver) hängt**
+
+* VSCode verwendet `tsserver` im Hintergrund für IntelliSense, Autocompletion & Fehlerprüfung.
+* **Große Projekte** oder **viele `.d.ts`-Dateien** können ihn **lahmlegen**.
+
+🛠 **Fix**:
+
+* Öffne `settings.json` und setze:
+
+  ```json
+  "typescript.tsserver.log": "verbose",
+  "typescript.tsserver.experimental.enableProjectDiagnostics": false
+  ```
+* Oder: `F1 → TypeScript: Restart TS server`
+
+#### 2. 🧩 **Extensions amoklaufend**
+
+* Kandidaten: **ESLint**, **Prettier**, **Path Intellisense**, **GitLens**, **Live Share**, etc.
+
+🛠 **Fix**:
+
+* Führe VSCode im **Safe Mode** aus:
+
+  ```
+  code --disable-extensions
+  ```
+
+  → Wenn es dann flüssig läuft: Übeltäter ist eine Extension.
+  → **Tipp**: `Developer: Show Running Extensions` zeigt die Ressourcenfresser.
+
+#### 3. 💥 **ESLint oder Prettier blockieren**
+
+* Besonders bei "on save" oder "on type" linting.
+
+🛠 **Fix**:
+
+* Teste: `"editor.formatOnSave": false`, `"eslint.run": "onSave"` statt `"onType"`
+
+#### 4. 📦 **node\_modules zu fett**
+
+* VSCode scannt manchmal den ganzen Zoo. Bei Monorepos oder vielen Dependencies wird das mörderisch.
+
+🛠 **Fix**:
+
+* Ignoriere Verzeichnisse:
+
+  ```json
+  "files.watcherExclude": {
+    "**/node_modules/**": true
+  },
+  "search.exclude": {
+    "**/node_modules/**": true
+  }
+  ```
+
+#### 5. 💾 **TS/JS Project-Config ist kaputt oder zu groß**
+
+* Eine kaputte `tsconfig.json` oder zu viele `include`-Globs können alles killen.
+
+🛠 **Fix**:
+
+* Check deine `tsconfig.json`, und versuch sie zu entschlacken.
+
+  ```json
+  {
+    "exclude": ["node_modules", "dist", "build"],
+    "include": ["src"]
+  }
+  ```
+
+---
+
+### 🧪 **Diagnose-Tipp**
+
+* Öffne: `F1 → Developer: Toggle Developer Tools → Performance`
+* Dann ein paar Sekunden aufzeichnen, während du das Lag spürst.
+* Du siehst sofort, was blockiert: TS Server, Extension, GC, etc.
+
+---
+
+### 🧼 **Bonus: Settings für Speed**
+
+```json
+"editor.formatOnType": false,
+"editor.codeActionsOnSave": {},
+"javascript.suggest.autoImports": false,
+"typescript.suggest.autoImports": false,
+"typescript.validate.enable": false
+```
+
+---
+
+Wenn du mir deine aktivierten Extensions + `tsconfig.json` gibst, geh ich dir wie Sherlock auf den Täter los 🔍🧠
+
+  
+</details>
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+__________________________________________________________
+__________________________________________________________
+<br><br>
+<br><br>
+
+
 # FAQ
 
 ## npm not found
