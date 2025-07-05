@@ -2108,7 +2108,16 @@ ______________________________________________________
      "update.releaseTrack": "prerelease",
      "workbench.colorTheme": "Lumen",
      "cursor.diffs.useCharacterLevelDiffs": true,
-     "diffEditor.renderSideBySide":false
+     "diffEditor.renderSideBySide":false,
+      "terminal.integrated.gpuAcceleration": "off",
+      "typescript.tsserver.log": "verbose",
+      "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+      "files.watcherExclude": {
+        "**/node_modules/**": true
+      },
+      "search.exclude": {
+        "**/node_modules/**": true
+      }
 }
 ```
 
