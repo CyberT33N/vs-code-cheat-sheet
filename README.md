@@ -452,6 +452,23 @@ ______________________________________________________
      "files.autoSave": "afterDelay",
      "editor.tokenColorCustomizations": {
           "textMateRules": [
+      
+               {
+                    "scope": "punctuation.definition.parameters.begin.ts",
+                    "settings": {
+                         "fontStyle": "",
+                         "foreground": "#ffffff79"
+                    }
+               },
+               {
+                    "scope": "punctuation.definition.parameters.end.ts",
+                    "settings": {
+                         "fontStyle": "",
+                         "foreground": "#ffffff79"
+                    }
+               },
+
+
                {
                     "scope": "constant.language.boolean.true.ts",
                     "settings": {
