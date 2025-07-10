@@ -452,7 +452,17 @@ ______________________________________________________
      "files.autoSave": "afterDelay",
      "editor.tokenColorCustomizations": {
           "textMateRules": [
-      
+
+
+               {
+                    "scope": " meta.brace.round.ts",
+                    "settings": {
+                         "fontStyle": "",
+                         "foreground": "#ffffff79"
+                    }
+               },
+
+
                {
                     "scope": "punctuation.definition.parameters.begin.ts",
                     "settings": {
