@@ -453,6 +453,14 @@ ______________________________________________________
      "editor.tokenColorCustomizations": {
           "textMateRules": [
 
+  {
+                    "scope": "meta.decorator.ts",
+                    "settings": {
+                         "fontStyle": "",
+                         "foreground": "#565656"
+                    }
+               },
+
 
                {
                     "scope": " meta.brace.round.ts",
