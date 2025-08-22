@@ -1016,14 +1016,14 @@ ______________________________________________________
                     "scope": "keyword.operator.optional.ts",
                     "settings": {
                          "fontStyle": "",
-                         "foreground": "#ff005583"
+                         "foreground": "#ff0055"
                     }
                },
                {
                     "scope": "keyword.operator.optional.tsx",
                     "settings": {
                          "fontStyle": "",
-                         "foreground": "#ff005583"
+                         "foreground": "#ff0055"
                     }
                },
 
