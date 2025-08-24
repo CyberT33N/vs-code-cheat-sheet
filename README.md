@@ -462,6 +462,16 @@ ______________________________________________________
                },
 
 
+                 {
+                    "scope": "variable.other.link.underline.jsdoc",
+                    "settings": {
+                         "fontStyle": "",
+                         "foreground": "#838383"
+                    }
+               },
+
+
+
                {
                     "scope": " meta.brace.round.ts",
                     "settings": {
