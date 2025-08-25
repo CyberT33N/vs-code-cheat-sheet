@@ -536,7 +536,7 @@ ______________________________________________________
                     "scope": "punctuation.accessor.ts",
                     "settings": {
                          "fontStyle": "",
-                         "foreground": "#767676"
+                         "foreground": "#9c9c9c"
                     }
                },
 
