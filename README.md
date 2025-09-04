@@ -2157,6 +2157,7 @@ ______________________________________________________
      "vscode-angular-html.xmlTagNamespaceSuffix": "#5BD1B9",
      "vscode-angular-html.controlFlowPrefix": "#7EAEF5",
      "update.releaseTrack": "prerelease",
+     "eslint.validate": ["javascript", "javascriptreact", "json", "jsonc", "json5", "typescript", "markdown"],
      "workbench.colorTheme": "Lumen",
      "cursor.diffs.useCharacterLevelDiffs": true,
      "diffEditor.renderSideBySide":false,
