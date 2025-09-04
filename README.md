@@ -1006,7 +1006,13 @@ ______________________________________________________
                }
           },
 
-
+  {
+                    "scope": "entity.name.type",
+                    "settings": {
+                         "fontStyle": "",
+                         "foreground": "#fffb0077"
+                    }
+               },
 
                {
                     "scope": "entity.name.type.ts",
