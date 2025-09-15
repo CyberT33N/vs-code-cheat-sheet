@@ -2012,7 +2012,7 @@ ______________________________________________________
      },
      "editor.tabSize": 5,
      "editor.inlayHints.fontSize": 14,
-     "editor.fontSize": 16,
+     "editor.fontSize": 6,
 
      "editor.inlayHints.fontFamily": "'GeistMono NF'",
      "debug.console.fontFamily": "'GeistMono NF'",
