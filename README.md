@@ -853,7 +853,7 @@ ______________________________________________________
                     "scope": " storage.modifier.ts",
                     "settings": {
                          "fontStyle": "",
-                         "foreground": "#fa115f53"
+                         "foreground": "#fa115f94"
                     }
                },
                {
