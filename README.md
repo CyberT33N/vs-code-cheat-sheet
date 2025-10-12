@@ -2160,6 +2160,13 @@ ______________________________________________________
      "eslint.validate": ["javascript", "javascriptreact", "json", "jsonc", "json5", "typescript", "markdown"],
      "workbench.colorTheme": "Lumen",
      "cursor.diffs.useCharacterLevelDiffs": true,
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "project-relative",
+  "javascript.preferences.importModuleSpecifier": "project-relative",
+  "typescript.preferences.importModuleSpecifierEnding": "auto",
+  "javascript.preferences.importModuleSpecifierEnding": "auto",
+
      "diffEditor.renderSideBySide":false,
       "terminal.integrated.gpuAcceleration": "off",
       "typescript.tsserver.log": "verbose",
