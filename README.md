@@ -150,8 +150,42 @@ git merge --squash branchB
   - In general it is very anoying to through this process as described above. Even when you click on `accept all from current` then you still have to decide in the final window to `remove incoming`. Here are some alternatives:
     - **Method 1** E.g. click `accept all from current` and then just completly copy your code e.g. from the current window and then paste it to the final Window and then Merge Button.
 
+
+
+
+
 <br><br>
 
+---
+
+<br><br>
+
+
+### package-lock.json / pnpm-lock.json
+
+#### pnpm-lock.json
+
+Windows
+```shell
+Remove-Item -Path "pnpm-lock.yaml" -Force
+pnpm i
+
+git add .
+git rebase --continue
+
+# Fur cursor you sometimes got problems then use
+# git -c core.editor=notepad rebase --continue
+```
+
+
+
+
+
+<br><br>
+
+---
+
+<br><br>
 
 
 
@@ -202,7 +236,8 @@ Also: **Datei bleibt gelöscht.**
 3. Dann:
 
    ```bash
-   git rebase --continue
+   # Fur cursor you sometimes got problems then use
+   # git -c core.editor=notepad rebase --continue
    ```
 
 ---
