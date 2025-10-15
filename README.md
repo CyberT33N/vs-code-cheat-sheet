@@ -152,10 +152,78 @@ git merge --squash branchB
 
 <br><br>
 
-### Deleted files
-- Right click on the deleted file and and then click stage changes (Or click the + Button this will stage aswell) and then click yes
-  - If needed check if the file was really deleted but should be doe
 
+
+
+### Deleted files
+
+### Ours deleted | Theirs modified
+
+<details><summary>Click to expand..</summary>
+
+
+> 🧩 Du (Feature) hast die Datei **gelöscht**.
+> 🧩 `develop` (der Branch, auf den du rebasest) hat die Datei **verändert**.
+> 👉 Git meldet also: **“deleted by us / modified by them”** (oder in VSCode nur “deleted by them”, je nach Blickrichtung).
+
+---
+
+## 🎯 Dein Ziel: Datei **soll gelöscht bleiben**
+
+Dann lautet die goldene Regel:
+
+> Du willst **deine Seite (Feature)** behalten und **deren Änderungen (Develop)** verwerfen.
+
+Also: **Datei bleibt gelöscht.**
+
+---
+
+## 🧠 Der richtige Move
+
+1. **Im Merge-Editor (VSCode):**
+   Klicke auf **“Accept Current Change”** (nicht “Incoming”).
+
+   * *Current* = dein Branch (Feature)
+   * *Incoming* = der, auf den du rebasest (Develop)
+
+   Dadurch sagst du:
+
+   > “Ich bleibe bei meiner Entscheidung — Datei löschen.”
+
+2. Danach (im Terminal oder Source Control Tab):
+
+   ```bash
+   git rm path/to/file
+   git add path/to/file
+   ```
+
+   (Das zweite Kommando staged die Löschung — wichtig, damit Git weiß, dass du sie bewusst gelöscht lässt.)
+
+3. Dann:
+
+   ```bash
+   git rebase --continue
+   ```
+
+---
+
+## 🔎 Kontrolle
+
+Vor dem `--continue` kannst du checken:
+
+```bash
+git status
+```
+
+Da sollte stehen:
+
+```
+deleted: path/to/file
+```
+
+Wenn du stattdessen `modified:` siehst, wurde sie wiederhergestellt → dann hast du versehentlich “Incoming” akzeptiert.
+
+</details>
 
 
 
