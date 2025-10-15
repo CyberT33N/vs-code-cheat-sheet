@@ -134,13 +134,30 @@ ______________________________________________________
 
 <br><br>
 
-### Good 2 Know
+### What is incoming and what is current?
+
 Imagine you would do:
 ```shell
 git checkout branchA
 git merge --squash branchB
 ```
 - Then **branchA is current** and **branchB is incoming**
+
+
+Imagine you would do:
+```shell
+git checkout develop
+git pull
+git checkout refactor/ab-125/adding-tests-for-gateway/dde
+git rebase develop
+```
+- Then **develop is current** and **refactor/ab-125/adding-tests-for-gateway/dde is incoming**
+
+
+
+
+
+
 
 
 
