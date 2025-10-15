@@ -142,13 +142,47 @@ git merge --squash branchB
 ```
 - Then **branchA is current** and **branchB is incoming**
 
+
+
 <br><br>
+
+---
+
 <br><br>
 
 ### Merge Editor
 - **Always double check the bottom final result Window where your results getting combined. For whatever reason when you accept e.g. any code block from the incoming window and clicking on `accept incoming` then you have to choose to click `remove current` from the final result window. Otherwhise you will have the code of incoming and current together in your final result
   - In general it is very anoying to through this process as described above. Even when you click on `accept all from current` then you still have to decide in the final window to `remove incoming`. Here are some alternatives:
     - **Method 1** E.g. click `accept all from current` and then just completly copy your code e.g. from the current window and then paste it to the final Window and then Merge Button.
+
+
+
+
+<br><br>
+
+---
+
+<br><br>
+
+### Merge Conflicts
+
+#### Current Status
+
+<details><summary>Click to expand..</summary>
+
+  **Check die Konflikte im Terminal:**
+
+   ```bash
+   git status
+   ```
+
+   → Das zeigt dir alle Dateien, die noch Konflikte haben (rot markiert, z. B. „both modified“).
+
+
+</details>
+
+
+
 
 
 
@@ -165,6 +199,9 @@ git merge --squash branchB
 
 #### pnpm-lock.json
 
+<details><summary>Click to expand..</summary>
+
+
 Windows
 ```shell
 Remove-Item -Path "pnpm-lock.yaml" -Force
@@ -177,6 +214,7 @@ git rebase --continue
 # git -c core.editor=notepad rebase --continue
 ```
 
+</details>
 
 
 
