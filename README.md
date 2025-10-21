@@ -2325,6 +2325,8 @@ ______________________________________________________
   "typescript.preferences.importModuleSpecifierEnding": "auto",
   "javascript.preferences.importModuleSpecifierEnding": "auto",
 
+"diffEditor.renderSideBySide": false,
+
      "diffEditor.renderSideBySide":false,
       "terminal.integrated.gpuAcceleration": "off",
       "typescript.tsserver.log": "verbose",
