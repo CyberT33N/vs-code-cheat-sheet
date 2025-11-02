@@ -611,6 +611,83 @@ ______________________________________________________
      "editor.tokenColorCustomizations": {
           "textMateRules": [
 
+
+
+
+          {
+               "scope": "punctuation.definition.bold.markdown",
+               "settings": {
+                    "fontStyle": "",
+                    "foreground": "#d2049b"
+               }
+          },
+
+          {
+               "scope": "entity.name.section.markdown",
+               "settings": {
+                    "fontStyle": "",
+                    "foreground": "#e2e2e2"
+               }
+          },
+
+
+          {
+               "scope": "markup.bold.markdown",
+               "settings": {
+                    "fontStyle": "",
+                    "foreground": "#d2049b"
+               }
+          },
+
+          
+          {
+               "scope": "meta.paragraph.markdown",
+               "settings": {
+                    "fontStyle": "",
+                    "foreground": "#828282"
+               }
+          },
+
+          
+
+          {
+               "scope": "markup.inline.raw.string.markdown",
+               "settings": {
+                    "fontStyle": "",
+                    "foreground": "#e2e2e2"
+               }
+          },
+
+
+          {
+               "scope": "punctuation.definition.link.title.begin.markdown",
+               "settings": {
+                    "fontStyle": "",
+                    "foreground": "#e2e2e2"
+               }
+          },
+          
+
+          {
+               "scope": "punctuation.definition.link.title.end.markdown",
+               "settings": {
+                    "fontStyle": "",
+                    "foreground": "#e2e2e2"
+               }
+          },
+          
+
+          {
+               "scope": "meta.link.reference.markdown",
+               "settings": {
+                    "fontStyle": "",
+                    "foreground": "#e2e2e2"
+               }
+          },
+
+
+          // =====================================
+
   {
                     "scope": "meta.decorator.ts",
                     "settings": {
