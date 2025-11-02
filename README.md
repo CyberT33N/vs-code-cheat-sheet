@@ -613,20 +613,19 @@ ______________________________________________________
 
 
 
-
           {
                "scope": "punctuation.definition.bold.markdown",
                "settings": {
                     "fontStyle": "",
-                    "foreground": "#d2049b"
+                    "foreground": "#e2e2e2"
                }
           },
 
           {
                "scope": "entity.name.section.markdown",
                "settings": {
-                    "fontStyle": "",
-                    "foreground": "#e2e2e2"
+                    "fontStyle": "bold",
+                    "foreground": "#d2049b"
                }
           },
 
@@ -634,8 +633,8 @@ ______________________________________________________
           {
                "scope": "markup.bold.markdown",
                "settings": {
-                    "fontStyle": "",
-                    "foreground": "#d2049b"
+                    "fontStyle": "bold",
+                    "foreground": "#ffffffbb"
                }
           },
 
@@ -644,7 +643,7 @@ ______________________________________________________
                "scope": "meta.paragraph.markdown",
                "settings": {
                     "fontStyle": "",
-                    "foreground": "#828282"
+                    "foreground": "#929292"
                }
           },
 
@@ -653,8 +652,8 @@ ______________________________________________________
           {
                "scope": "markup.inline.raw.string.markdown",
                "settings": {
-                    "fontStyle": "",
-                    "foreground": "#e2e2e2"
+                    "fontStyle": "italic",
+                    "foreground": "#d2049b"
                }
           },
 
@@ -663,7 +662,7 @@ ______________________________________________________
                "scope": "punctuation.definition.link.title.begin.markdown",
                "settings": {
                     "fontStyle": "",
-                    "foreground": "#e2e2e2"
+                    "foreground": "#ffffffbb"
                }
           },
           
@@ -672,7 +671,7 @@ ______________________________________________________
                "scope": "punctuation.definition.link.title.end.markdown",
                "settings": {
                     "fontStyle": "",
-                    "foreground": "#e2e2e2"
+                    "foreground": "#ffffffbb"
                }
           },
           
@@ -681,7 +680,7 @@ ______________________________________________________
                "scope": "meta.link.reference.markdown",
                "settings": {
                     "fontStyle": "",
-                    "foreground": "#e2e2e2"
+                    "foreground": "#ffffffbb"
                }
           },
 
