@@ -643,7 +643,7 @@ ______________________________________________________
                "scope": "meta.paragraph.markdown",
                "settings": {
                     "fontStyle": "",
-                    "foreground": "#929292"
+                    "foreground": "#ffffff91"
                }
           },
 
