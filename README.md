@@ -2403,6 +2403,9 @@ ______________________________________________________
 
 "diffEditor.renderSideBySide": false,
 
+"window.zoomLevel": 0.25,
+"editor.renderWhitespace": "none",
+
      "diffEditor.renderSideBySide":false,
       "terminal.integrated.gpuAcceleration": "off",
       "typescript.tsserver.log": "verbose",
