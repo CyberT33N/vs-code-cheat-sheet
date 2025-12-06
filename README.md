@@ -2248,12 +2248,12 @@ ______________________________________________________
      "editor.inlayHints.fontSize": 14,
      "editor.fontSize": 6,
 
-     "editor.inlayHints.fontFamily": "'GeistMono NF'",
-     "debug.console.fontFamily": "'GeistMono NF'",
-     "terminal.integrated.fontFamily": "'GeistMono NF'",
-     "editor.fontFamily": "'GeistMono NF'",
+     "editor.inlayHints.fontFamily": "Geist Mono",
+     "debug.console.fontFamily": "Geist Mono",
+     "terminal.integrated.fontFamily": "Geist Mono",
+     "editor.fontFamily": "Geist Mono",
      "editor.fontLigatures": true,
-     "editor.fontWeight": "500",
+     "editor.fontWeight": "475",
 
      "editor.wordWrap": "on",
      "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
