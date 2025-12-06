@@ -2403,7 +2403,7 @@ ______________________________________________________
 
 "diffEditor.renderSideBySide": false,
 
-"window.zoomLevel": 0.5,
+"window.zoomLevel": 0.6,
 "editor.renderWhitespace": "none",
 
      "diffEditor.renderSideBySide":false,
