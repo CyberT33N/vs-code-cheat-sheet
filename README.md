@@ -2246,7 +2246,7 @@ ______________________________________________________
      },
      "editor.tabSize": 5,
      "editor.inlayHints.fontSize": 14,
-     "editor.fontSize": 6,
+     "editor.fontSize": 12,
 
      "editor.inlayHints.fontFamily": "Geist Mono Medium",
      "debug.console.fontFamily": "Geist Mono Medium",
@@ -2403,7 +2403,7 @@ ______________________________________________________
 
 "diffEditor.renderSideBySide": false,
 
-"window.zoomLevel": 0.5,
+"window.zoomLevel": 0.4,
 "editor.renderWhitespace": "none",
 
      "diffEditor.renderSideBySide":false,
