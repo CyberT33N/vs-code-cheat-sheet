@@ -2248,10 +2248,10 @@ ______________________________________________________
      "editor.inlayHints.fontSize": 14,
      "editor.fontSize": 6,
 
-     "editor.inlayHints.fontFamily": "Geist Mono",
-     "debug.console.fontFamily": "Geist Mono",
-     "terminal.integrated.fontFamily": "Geist Mono",
-     "editor.fontFamily": "Geist Mono",
+     "editor.inlayHints.fontFamily": "Geist Mono Medium",
+     "debug.console.fontFamily": "Geist Mono Medium",
+     "terminal.integrated.fontFamily": "Geist Mono Medium",
+     "editor.fontFamily": "Geist Mono Medium",
      "editor.fontLigatures": true,
      "editor.fontWeight": "475",
 
