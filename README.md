@@ -2253,7 +2253,7 @@ ______________________________________________________
      "terminal.integrated.fontFamily": "Geist Mono Medium",
      "editor.fontFamily": "Geist Mono Medium",
      "editor.fontLigatures": true,
-     "editor.fontWeight": "475",
+     "editor.fontWeight": "500",
 
      "editor.wordWrap": "on",
      "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
