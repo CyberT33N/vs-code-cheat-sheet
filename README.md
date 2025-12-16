@@ -2255,6 +2255,9 @@ ______________________________________________________
      "editor.fontLigatures": true,
      "editor.fontWeight": "400",
 
+     "terminal.integrated.fontSize": 12,
+     "terminal.integrated.lineHeight": 1.2,
+
      "editor.wordWrap": "on",
      "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
      "editor.codeLensFontSize": 17,
