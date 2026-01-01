@@ -2247,7 +2247,7 @@ ______________________________________________________
      "editor.tabSize": 5,
      "editor.inlayHints.fontSize": 14,
      "editor.fontSize": 12,
-
+     "terminal.integrated.fontSize": 12,
      "editor.inlayHints.fontFamily": "Geist Mono Medium",
      "debug.console.fontFamily": "Geist Mono Medium",
      "terminal.integrated.fontFamily": "Geist Mono Medium",
