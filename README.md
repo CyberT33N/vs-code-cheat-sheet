@@ -205,7 +205,30 @@ git rebase develop
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
+
 
 ---
 
@@ -348,6 +371,13 @@ Wenn du stattdessen `modified:` siehst, wurde sie wiederhergestellt → dann has
 
 
 
+
+
+
+
+
+
+
 <br><br>
 ______________________________________________________
 ______________________________________________________
@@ -359,6 +389,13 @@ ______________________________________________________
 
 # jsconfig.json
 - https://code.visualstudio.com/docs/languages/jsconfig
+
+
+
+
+
+
+
 
 
 
@@ -421,6 +458,34 @@ ______________________________________________________
    ```
 
 Jetzt wird dein Diff inline angezeigt – wie ein gutes Streitgespräch: alles an einem Ort 😎
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2471,6 +2536,14 @@ ______________________________________________________
 
 # Extensions
 Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
+
+
+## Install 
+
+### CLI
+```
+code --install-extension <publisher>.<extension>
+```
 
 <br><br>
 <br><br>
